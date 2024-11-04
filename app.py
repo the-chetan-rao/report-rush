@@ -31,8 +31,6 @@ class AboutDialog(QDialog):
         super().__init__(parent)
         self.setWindowTitle("About This Project")
         self.setFixedSize(400, 200)  # Set a fixed size for the dialog
-        # Keep the dialog on top
-        # self.setWindowFlags(self.windowFlags() | Qt.WindowStaysOnTopHint)
         self.setModal(True)
 
         # Set up the layout
@@ -44,7 +42,7 @@ class AboutDialog(QDialog):
         project_label = QLabel(
             "Project by Chetan Rao. Code by Abdul Mannan.", self)
         repo_label = QLabel(
-            'Repo: <a href="https://github.com/your_repo">GitHub Link</a>', self)
+            'Repo: <a href="https://github.com/the-chetan-rao/report-rush">GitHub Link</a>', self)
         terms_label = QLabel(
             'By using this software, you agree to the <a href="https://github.com/the-chetan-rao/report-rush/blob/main/LICENSE.txt">Terms of Service</a>', self)
 
