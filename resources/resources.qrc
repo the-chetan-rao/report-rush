@@ -1,0 +1,11 @@
+<RCC>
+  <qresource prefix="icons">
+    <file>question-mark.png</file>
+    <file>external.png</file>
+    <file>folder.png</file>
+    <file>icons8-add-96.png</file>
+    <file>icons8-cross-50.png</file>
+    <file>icons8-play-96.png</file>
+    <file>logo.png</file>
+  </qresource>
+</RCC>
